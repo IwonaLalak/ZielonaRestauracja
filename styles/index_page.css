@@ -1,0 +1,45 @@
+#index_page #bottom_header .row {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.1em;
+}
+#index_page #bottom_header .row span {
+  font-weight: bold;
+}
+#index_page #bottom_header .row small {
+  display: block;
+  font-size: 20px;
+}
+#index_page #bottom_header .row .glyphicon {
+  line-height: 2em;
+  font-size: 30px;
+}
+@media screen and (max-width: 660px) {
+  #index_page #bottom_header .row span,
+  #index_page #bottom_header .row small {
+    font-size: 20px;
+  }
+  #index_page #bottom_header .row .glyphicon {
+    display: none;
+  }
+}
+#index_page #bottom_header #zacheta {
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #444;
+}
+#index_page #wrapper #promocje li small {
+  color: #0d0d53;
+  line-height: 1em;
+  font-size: 80%;
+}
+#index_page #wrapper #polub_fb h3,
+#index_page #wrapper #polub_fb a {
+  display: block;
+  text-align: center;
+  line-height: 2em;
+  color: #0d0d53;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}

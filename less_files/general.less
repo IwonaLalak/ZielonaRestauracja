@@ -1,0 +1,79 @@
+@import 'variables.less';
+
+@header-color1: #99e699;
+@header-color2: #4db34d;
+@header-color3: #75bd75;
+
+body {
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+#up_header {
+  height: 20px;
+  background: @header-color1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(@header-color1, @header-color2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(@header-color1, @header-color2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(@header-color1, @header-color2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(@header-color1, @header-color2); /* Standard syntax */
+}
+
+#header {
+  .navbar-default {
+    border: 1px solid @secondary1;
+    border-radius: 0;
+    background: url("../images/bg.png");
+    margin: 0;
+    * {
+      color: #fff;
+    }
+  }
+}
+
+#bottom_header {
+  min-height: 70px;
+  padding: 15px 0;
+  background: @header-color2; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(@header-color2, @header-color3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(@header-color2, @header-color3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(@header-color2, @header-color3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(@header-color2, @header-color3); /* Standard syntax */
+  border-bottom: 1px solid #ddd;
+}
+
+#wrapper {
+  padding: 30px 0 50px 0;
+  color: #111;
+  h3 {
+    color: @secondary1;
+  }
+}
+
+#footer {
+  border-top: 2px solid @secondary2;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 7px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  background: url("../images/bg.png");
+}
+
+#myModal{
+  .modal-content {
+    border-radius: 2px;
+  }
+  .go_to_register{
+    line-height:40px;
+    color:#666;
+  }
+  .progress{
+    margin:0;
+  }
+}
+
+
+
+

@@ -1,0 +1,63 @@
+#panel_page #buttony_zarzadzania a {
+  margin: 5px 0 0 0;
+}
+#panel_page_uzytkownicy #buttony_zarzadzania a,
+#panel_page_dania #buttony_zarzadzania a,
+#panel_page_zamowienia #buttony_zarzadzania a,
+#panel_page_promocje #buttony_zarzadzania a {
+  margin: 5px 0 0 0;
+}
+#panel_page_uzytkownicy .table thead,
+#panel_page_dania .table thead,
+#panel_page_zamowienia .table thead,
+#panel_page_promocje .table thead {
+  font-weight: bold;
+}
+#panel_page_uzytkownicy .wyswietlenie_tabeli,
+#panel_page_dania .wyswietlenie_tabeli,
+#panel_page_zamowienia .wyswietlenie_tabeli,
+#panel_page_promocje .wyswietlenie_tabeli {
+  max-height: 200px;
+  overflow-y: auto;
+}
+#panel_page_uzytkownicy .form-group,
+#panel_page_dania .form-group,
+#panel_page_zamowienia .form-group,
+#panel_page_promocje .form-group {
+  margin-bottom: 1px;
+}
+#panel_page_uzytkownicy .form-group label,
+#panel_page_dania .form-group label,
+#panel_page_zamowienia .form-group label,
+#panel_page_promocje .form-group label {
+  line-height: 38px;
+}
+#panel_page_uzytkownicy .form-group label .glyphicon,
+#panel_page_dania .form-group label .glyphicon,
+#panel_page_zamowienia .form-group label .glyphicon,
+#panel_page_promocje .form-group label .glyphicon {
+  font-size: 18px;
+}
+#panel_page_uzytkownicy .form-group label small,
+#panel_page_dania .form-group label small,
+#panel_page_zamowienia .form-group label small,
+#panel_page_promocje .form-group label small {
+  font-weight: 100;
+  font-size: 12px;
+  font-style: italic;
+  color: #666;
+  padding-left: 10px;
+}
+#panel_page_uzytkownicy .last_form-group,
+#panel_page_dania .last_form-group,
+#panel_page_zamowienia .last_form-group,
+#panel_page_promocje .last_form-group {
+  margin-bottom: 0;
+}
+#panel_page_uzytkownicy .last_form-group .alert,
+#panel_page_dania .last_form-group .alert,
+#panel_page_zamowienia .last_form-group .alert,
+#panel_page_promocje .last_form-group .alert {
+  margin-top: 3px;
+  margin-bottom: 1px;
+}

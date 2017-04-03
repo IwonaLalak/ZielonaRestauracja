@@ -1,0 +1,11 @@
+@import 'general.css';
+@import 'buttons.css';
+@import "forms.css";
+@import "index_page.css";
+@import "rejestracja_page.css";
+@import "oferta_page.css";
+@import "zamow_page.css";
+@import "kontakt_page.css";
+@import "profil_page.css";
+@import "panel_page.css";
+@import "forget_page.css";

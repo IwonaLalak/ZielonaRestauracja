@@ -1,0 +1,29 @@
+#oferta_page {
+  margin: 0;
+}
+#oferta_page .description {
+  padding-top: 25px;
+  padding-left: 10%;
+  font-size: 16px;
+}
+#oferta_page .badge {
+  font-size: 16px;
+  margin-top: 10px;
+}
+#oferta_page table tr:hover {
+  background: #e9e9e9;
+}
+@media screen and (max-width: 480px) {
+  #oferta_page .badge {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  #oferta_page .description {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 370px) {
+  #oferta_page .description {
+    font-size: 14px;
+  }
+}

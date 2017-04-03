@@ -1,0 +1,27 @@
+#zamow_page #nr_tel {
+  font-size: 34px;
+}
+#zamow_page #opis_tel {
+  line-height: 40px;
+}
+#zamow_page #opis_form {
+  margin-top: 15px;
+}
+#zamow_page #smacznego {
+  margin-top: 40px;
+  font-size: 34px;
+  display: block;
+  text-align: center;
+}
+#zamow_page .form-group .nazwa_dania .checkbox {
+  margin-top: 4px;
+}
+#zamow_page .form-group .nazwa_dania span {
+  line-height: 40px;
+}
+#zamow_page .form-group #cena_zamowienia {
+  line-height: 40px;
+}
+#zamow_page #wszystkie_dania input[type=number] {
+  display: none;
+}
